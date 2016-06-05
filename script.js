@@ -31,9 +31,5 @@ myApp.controller('mainController', function($scope){
       url: "http://blog.piratar.is/",
       name: "Blogsíður Pírata"
     }
-
-
-
-
   ];
 })

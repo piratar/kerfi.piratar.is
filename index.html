@@ -11,19 +11,34 @@
   </head>
   <body ng-app="myApp">
     <div class="container" ng-controller="mainController">
+
       <div class="row">
         <div class="col-md-12">
-
           <h2>Vefsíður Pírata</h2>
-          <ul>
-            <li ng-repeat="item in websites"><a href="{{item.url}}">{{ item.url}} </a>- {{ item.name }}</li>
-          </ul>
+        </div>
+      </div>  <!-- end row -->
 
+      <div class="row">
+        <div class="col-md-6 col-xs-8">
+          <input type="search" class="form-control" ng-model="q" placeholder="Leita / sía" />
+        </div>
+      </div> <!-- end row -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <ul>
+            <li ng-repeat="item in websites| filter:q "><a href="{{item.url}}">
+                {{ item.url}}</a> - {{ item.name }}
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-12">
           <h4>Önnur tól</h4>
           <ul>
             <li><a href="https://github.com/piratar">Kóðageymsla - Github</a></li>
           </ul>
         </div>
+      </div> <!-- end row -->
 
     </div> <!-- End container -->
   </body>
