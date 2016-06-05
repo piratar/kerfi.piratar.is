@@ -5,24 +5,18 @@
     <title>Píratar</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
   </head>
-  <body>
-    <div class="container">
+  <body ng-app="myApp">
+    <div class="container" ng-controller="mainController">
       <div class="row">
         <div class="col-md-12">
 
           <h2>Vefsíður Pírata</h2>
           <ul>
-            <li><a href="https://x.piratar.is">Kosningakerfi - x.piratar.is</a></li>
-            <li><a href="http://discourse.piratar.is">Málefnaspjall - mas.piratar.is</a></li>
-            <li><a href="http://gogn.piratar.is">Mæting þingmanna á nefndarfundi - gogn.piratar.is</a></li>
-            <li><a href="http://www.piratar.is/althingisrynirinn/">Alþingisrýnir (2013)</a></li>
-            <li><a href="https://www.ventill.is/">Öryggisventill - www.ventill.is/</a></li>
-            <li><a href="http://kvika.piratar.is/">Kvika - Wiki vefur </a></li>
-            <li><a href="http://blog.piratar.is/">Blogsíður Pírata</a></li>
-
+            <li ng-repeat="item in websites"><a href="{{item.url}}">{{ item.url}} </a>- {{ item.name }}</li>
           </ul>
 
           <h4>Önnur tól</h4>
