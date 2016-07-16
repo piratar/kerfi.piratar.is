@@ -14,7 +14,8 @@
 
       <div class="row">
         <div class="col-md-12">
-          <h2>Vefsíður Pírata</h2>
+          <h2>Kerfi Pírata</h2>
+          <p>Listi yfir hin ýmsu kerfi Pírata sem eru í rekstri og/eða þróun, og ábyrgðarmenn þess, <i>skáletraðir</i>.</p>
         </div>
       </div>  <!-- end row -->
 
@@ -28,14 +29,15 @@
         <div class="col-md-12">
           <ul>
             <li ng-repeat="item in websites| filter:q "><a href="{{item.url}}">
-                {{ item.url}}</a> - {{ item.name }}
+                {{ item.url}}</a> - {{ item.name }} - <i>{{ item.person }}</i>
             </li>
           </ul>
         </div>
         <div class="col-md-12">
-          <h4>Önnur tól</h4>
+          <h4>Annað</h4>
           <ul>
             <li><a href="https://github.com/piratar">Kóðageymsla - Github</a></li>
+            <li><a href="https://github.com/piratar/piratar.github.io">Kóðinn fyrir þessa síðu</a> - endilega sendið inn PR ef eitthvað vantar eða þarf að laga!</li>
           </ul>
         </div>
       </div> <!-- end row -->
