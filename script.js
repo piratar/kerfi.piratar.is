@@ -8,8 +8,12 @@ myApp.controller('mainController', function($scope){
       name: "Kosningakerfi"
     },
     {
-      url: "http://discourse.piratar.is",
-      name: "Málefnaspjall"
+      url: "http://mas.piratar.is",
+      name: "Málefnaspjall (discource.piratar.is)"
+    },
+    {
+      url: "http://stefna.piratar.is",
+      name: "Stefna Pírata"
     },
     { 
       url: "http://gogn.piratar.is",
