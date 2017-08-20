@@ -20,6 +20,14 @@ myApp.controller('mainController', function($scope){
       url: "https://member.piratar.is",
       name: "Félagatal Pírata"
     },
+    {
+      url: "https://grafana.piratar.is",
+      name: "Yfirlit yfir kerfisnotkun? (Grafana)"
+    },
+    {
+      url: "http://dev.piratar.is:8080",
+      name: "http://dev.piratar.is:8080"
+    },
     { 
       url: "http://gogn.piratar.is",
       name: "Mæting þingmanna á nefndarfundi"
