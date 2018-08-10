@@ -12,6 +12,9 @@ Einnig hægt að nota Issues:
 https://github.com/piratar/kerfi/issues
 
 
+
+### About this software
+
 Simple indexer with a search / filter 
 
 
