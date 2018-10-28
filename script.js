@@ -9,6 +9,10 @@ myApp.controller('mainController', function($scope){
       person: "Björn Levy"
     },
     {
+      url: "https://pad.piratar.is/",
+      name: "Etherpad Pírata"
+    },
+    {
       url: "http://mas.piratar.is",
       name: "Málefnaspjall (discource.piratar.is)"
     },
