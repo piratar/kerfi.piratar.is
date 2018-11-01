@@ -10,19 +10,23 @@ myApp.controller('mainController', function($scope){
     },
     {
       url: "https://pad.piratar.is/",
-      name: "Etherpad Pírata"
+      name: "Etherpad Pírata",
+      person: "?"
     },
     {
       url: "http://kvika.piratar.is/",
-      name: "Kvika - Wiki vefur, inniheldur að mestu vinnuskjöl"
+      name: "Kvika - Wiki vefur, inniheldur að mestu vinnuskjöl",
+      person: "?"
     },
     {
       url: "https://member.piratar.is",
-      name: "Félagatal Pírata"
+      name: "Félagatal Pírata",
+      person: "?"
     },
     {
       url: "https://grafana.piratar.is",
-      name: "Yfirlit yfir kerfisnotkun? (Grafana)"
+      name: "Yfirlit yfir kerfisnotkun? (Grafana)",
+      person: "Viktor Smári"
     },
     {
       url: "https://postur.piratar.is/",
@@ -31,27 +35,33 @@ myApp.controller('mainController', function($scope){
     },
     {
       url: "http://gogn.piratar.is",
-      name: "Mæting þingmanna á nefndarfundi"
+      name: "Mæting þingmanna á nefndarfundi",
+      person: "?"
     },
     {
       url: "http://mas.piratar.is",
-      name: "Málefnaspjall (discource.piratar.is)"
+      name: "Málefnaspjall (discource.piratar.is)",
+      person: "?"
     },
     {
       url: "http://stefna.piratar.is",
-      name: "Stefna Pírata"
+      name: "Stefna Pírata",
+      person: "?"
     },
     {
       url: "https://www.ventill.is/",
-      name: "Öryggisventill"
+      name: "Öryggisventill",
+      person: "Helgi"
     },
     {
       url: "http://www.piratar.is/althingisrynirinn/",
-      name: "Alþingisrýnir (2013)"
+      name: "Alþingisrýnir (2013)",
+      person: "Bjarni"
     },
     {
       url: "http://blog.piratar.is/",
-      name: "Blogsíður Pírata"
+      name: "Blogsíður Pírata",
+      person: "?"
     }
   ];
 })
