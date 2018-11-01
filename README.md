@@ -1,7 +1,11 @@
 # Kerfi Pírata
 
+Vantar kerfi á listann? Vinsamlegast búðu til nýtt [issue](https://github.com/piratar/kerfi/issues) eða sendu okkur breytingabeiðni.
 
-Hvaða kerfi finnst þér vanta? Hvernig getum við betrumbætt kerfin okkar?
+
+* Hvaða kerfi finnst þér vanta?
+
+* Hvernig getum við betrumbætt kerfin okkar?
 
 Hérna er hægt að ræða almennt um kerfi Pírata: 
 
@@ -19,7 +23,5 @@ Simple indexer with a search / filter
 
 
 Tech:
-
- - Angular 1.5
-
- - Bootstrap 3
+* Angular 1.5
+* Bootstrap 3
