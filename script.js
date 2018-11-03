@@ -6,7 +6,7 @@ myApp.controller('mainController', function($scope){
     {
       url: "https://x.piratar.is",
       name: "Kosningakerfi",
-      person: "Björn Levy"
+      person: "Helgi Hrafn Gunnarsson"
     },
     {
       url: "https://pad.piratar.is/",
@@ -21,7 +21,7 @@ myApp.controller('mainController', function($scope){
     {
       url: "https://member.piratar.is",
       name: "Félagatal Pírata",
-      person: "?"
+      person: "Helgi Hrafn Gunnarsson"
     },
     {
       url: "https://grafana.piratar.is",
@@ -31,7 +31,7 @@ myApp.controller('mainController', function($scope){
     {
       url: "https://postur.piratar.is/",
       name: "Póstkerfi Pírata",
-      person: "Björn Þór"
+      person: "Björn Þór Jóhannesso"
     },
     {
       url: "http://gogn.piratar.is",
@@ -56,7 +56,7 @@ myApp.controller('mainController', function($scope){
     {
       url: "http://www.piratar.is/althingisrynirinn/",
       name: "Alþingisrýnir (2013)",
-      person: "Bjarni"
+      person: "Bjarni Rúnar Einarsson"
     },
     {
       url: "http://blog.piratar.is/",
