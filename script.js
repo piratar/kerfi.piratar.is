@@ -49,11 +49,6 @@ myApp.controller('mainController', function($scope){
       person: "?"
     },
     {
-      url: "https://www.ventill.is/",
-      name: "Öryggisventill",
-      person: "Helgi"
-    },
-    {
       url: "http://www.piratar.is/althingisrynirinn/",
       name: "Alþingisrýnir (2013)",
       person: "Bjarni Rúnar Einarsson"
