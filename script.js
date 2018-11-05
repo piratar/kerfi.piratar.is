@@ -13,11 +13,7 @@ myApp.controller('mainController', function($scope){
       name: "Etherpad Pírata",
       person: "?"
     },
-    {
-      url: "http://kvika.piratar.is/",
-      name: "Kvika - Wiki vefur, inniheldur að mestu vinnuskjöl",
-      person: "?"
-    },
+
     {
       url: "https://member.piratar.is",
       name: "Félagatal Pírata",
@@ -27,6 +23,11 @@ myApp.controller('mainController', function($scope){
       url: "https://grafana.piratar.is",
       name: "Yfirlit yfir kerfisnotkun? (Grafana)",
       person: "Viktor Smári"
+    },
+    {
+      url: "http://kvika.piratar.is/",
+      name: "Kvika - Wiki vefur, inniheldur að mestu vinnuskjöl",
+      person: "?"
     },
     {
       url: "https://log.piratar.is",
@@ -57,6 +58,11 @@ myApp.controller('mainController', function($scope){
       url: "https://github.com/piratar/kennsla",
       name: "Kennsluefni Pírata",
       person: "?"
+    },
+    {
+      url: "https://discordapp.com/channels/329655342977908737/329660468694351872",
+      name: "Discord",
+      person: "Sigmundur Þórir Jónsson"
     },
     {
       url: "http://www.piratar.is/althingisrynirinn/",
