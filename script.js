@@ -21,7 +21,7 @@ myApp.controller('mainController', function($scope){
     {
       url: "https://log.piratar.is",
       name: "Lög Pírata",
-      person: "(Viktor Smári)"
+      person: ""
     },
     {
       url: "https://github.com/piratar/stefna",
@@ -36,7 +36,7 @@ myApp.controller('mainController', function($scope){
     {
       url: "https://postur.piratar.is/",
       name: "Póstkerfi Pírata",
-      person: "Björn Þór Jóhannesso"
+      person: "Björn Þór Jóhannesson"
     },
     {
       url: "https://pad.piratar.is/",
