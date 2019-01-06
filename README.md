@@ -2,7 +2,7 @@
 
 https://kerfi.piratar.is
 
-Vantar kerfi á listann? Vinsamlegast búðu til nýtt [issue](https://github.com/piratar/kerfi/issues) eða sendu okkur breytingabeiðni.
+Vantar kerfi á listann? Vinsamlegast búðu til nýtt [issue](https://github.com/piratar/kerfi/issues) eða sendu okkur breytingabeiðni (Pull Request).
 
 ## Hjálp
 * Ertu með hugmynd að kerfi sem þér finnst vanta?
