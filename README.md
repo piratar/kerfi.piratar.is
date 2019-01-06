@@ -9,7 +9,7 @@ Vantar kerfi á listann? Vinsamlegast búðu til nýtt [issue](https://github.co
 * Hvernig getum við betrumbætt kerfin okkar?
 * Hérna er hægt að ræða almennt um kerfi Pírata: 
    * https://github.com/piratar/kerfi/projects/1
-* Einnig hægt að nota Issues: 
+* Allar ábendingar og kvartanir eru vel þegnar í gegnum Issues: 
    * https://github.com/piratar/kerfi/issues
 
 
