@@ -6,17 +6,17 @@ myApp.controller('mainController', function($scope){
     {
       url: "https://x.piratar.is",
       name: "Kosningakerfi",
-      person: "Helgi Hrafn Gunnarsson"
+      person: "Helgi Hrafn Gunnarsson <helgi@piratar.is>"
     },
     {
       url: "http://blog.piratar.is/",
       name: "Blogsíður Pírata",
-      person: "?"
+      person: "Björn Þór Jóhannesson"
     },
     {
       url: "https://spjall.piratar.is",
       name: "Málefnaspjall (discource)",
-      person: "?"
+      person: "Helgi Hrafn Gunnarsson <helgi@piratar.is>"
     },
     {
       url: "https://log.piratar.is",
@@ -46,7 +46,7 @@ myApp.controller('mainController', function($scope){
     {
       url: "https://member.piratar.is",
       name: "Félagatal Pírata",
-      person: "Helgi Hrafn Gunnarsson"
+      person: "Helgi Hrafn Gunnarsson <helgi@piratar.is>"
     },
     {
       url: "http://kvika.piratar.is/",
