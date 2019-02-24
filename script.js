@@ -5,18 +5,27 @@ myApp.controller('mainController', function($scope){
   $scope.websites = [
     {
       url: "https://x.piratar.is",
-      name: "Kosningakerfi",
-      person: "Helgi Hrafn Gunnarsson"
+      name: "Kosningakerfi Pírata",
+      person: "Helgi Hrafn Gunnarsson <helgi@piratar.is>",
+      technology: "Wasa2il",
     },
     {
       url: "http://blog.piratar.is/",
       name: "Blogsíður Pírata",
-      person: "?"
+      person: "Björn Þór Jóhannesson",
+      technology: "WordPress",
     },
     {
       url: "https://spjall.piratar.is",
-      name: "Málefnaspjall (discource)",
-      person: "?"
+      name: "Málefnaspjall Pírata",
+      person: "Helgi Hrafn Gunnarsson <helgi@piratar.is>",
+      technology: "Discourse",
+    },
+    {
+      url: "https://office.piratar.is",
+      name: "Rafræn skrifstofa",
+      person: "Helgi Hrafn Gunnarsson <helgi@piratar.is>",
+      technology: "Nextcloud",
     },
     {
       url: "https://log.piratar.is",
@@ -36,17 +45,20 @@ myApp.controller('mainController', function($scope){
     {
       url: "https://postur.piratar.is/",
       name: "Póstkerfi Pírata",
-      person: "Björn Þór Jóhannesson"
+      person: "Björn Þór Jóhannesson",
+      technology: "Zimbra",
     },
     {
       url: "https://pad.piratar.is/",
       name: "Etherpad Pírata",
-      person: "?"
+      person: "?",
+      technology: "EtherPad",
     },
     {
       url: "https://member.piratar.is",
       name: "Félagatal Pírata",
-      person: "Helgi Hrafn Gunnarsson"
+      person: "Helgi Hrafn Gunnarsson <helgi@piratar.is>",
+      technology: "IcePirate",
     },
     {
       url: "http://kvika.piratar.is/",
@@ -66,7 +78,8 @@ myApp.controller('mainController', function($scope){
     {
       url: "https://discordapp.com/channels/329655342977908737/329660468694351872",
       name: "Discord",
-      person: "Sigmundur Þórir Jónsson"
+      person: "Sigmundur Þórir Jónsson",
+      technology: "Discord",
     },
     {
       url: "http://www.piratar.is/althingisrynirinn/",
