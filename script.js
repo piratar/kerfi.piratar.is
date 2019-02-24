@@ -19,6 +19,11 @@ myApp.controller('mainController', function($scope){
       person: "Helgi Hrafn Gunnarsson <helgi@piratar.is>"
     },
     {
+      url: "https://office.piratar.is",
+      name: "Rafræn skrifstofa",
+      person: "Helgi Hrafn Gunnarsson <helgi@piratar.is>"
+    },
+    {
       url: "https://log.piratar.is",
       name: "Lög Pírata",
       person: ""
