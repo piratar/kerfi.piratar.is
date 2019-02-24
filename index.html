@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-md-12">
           <h2>Kerfi Pírata</h2>
-          <p>Listi yfir hin ýmsu kerfi Pírata sem eru í rekstri og/eða þróun, og ábyrgðarmenn þess, <i>skáletraðir</i>.</p>
+          <p>Listi yfir hin ýmsu kerfi Pírata sem eru í rekstri og/eða þróun ásamt og ábyrgðarmönnum þeirra.</p>
         </div>
       </div>  <!-- end row -->
 
@@ -28,8 +28,10 @@
       <div class="row">
         <div class="col-md-12">
           <ul>
-            <li ng-repeat="item in websites| filter:q "><a href="{{item.url}}">
-                {{ item.url}}</a> - {{ item.name }} - <i>{{ item.person }}</i>
+            <li ng-repeat="item in websites| filter:q ">
+              <strong>{{ item.name }}</strong><br />
+              Slóð: <a href="{{item.url}}" target="_blank">{{ item.url}}</a><br />
+              Tengiliður: {{ item.person }}<br />
             </li>
           </ul>
         </div>
