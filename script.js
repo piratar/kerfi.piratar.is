@@ -70,21 +70,25 @@ myApp.controller('mainController', function($scope){
       name: "Yfirlit yfir kerfisnotkun? (Grafana)",
       person: "Viktor Smári"
     },
+    /*
     {
       url: "http://gogn.piratar.is",
       name: "Mæting þingmanna á nefndarfundi",
       person: "?"
     },
+    */
     {
       url: "https://discordapp.com/channels/329655342977908737/329660468694351872",
       name: "Discord",
       person: "Sigmundur Þórir Jónsson",
       technology: "Discord",
     },
+    /*
     {
       url: "http://www.piratar.is/althingisrynirinn/",
       name: "Alþingisrýnir (2013)",
       person: "Bjarni Rúnar Einarsson"
     }
+    */
   ];
 })
