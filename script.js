@@ -12,7 +12,7 @@ myApp.controller('mainController', function($scope){
     {
       url: "http://blog.piratar.is/",
       name: "Blogsíður Pírata",
-      person: "Björn Þór Jóhannesson",
+      person: "Björn Þór Jóhannesson <bjorn@piratar.is>",
       technology: "WordPress",
     },
     {
@@ -45,7 +45,7 @@ myApp.controller('mainController', function($scope){
     {
       url: "https://postur.piratar.is/",
       name: "Póstkerfi Pírata",
-      person: "Björn Þór Jóhannesson",
+      person: "Björn Þór Jóhannesson <bjorn@piratar.is>",
       technology: "Zimbra",
     },
     {
