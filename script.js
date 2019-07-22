@@ -51,7 +51,7 @@ myApp.controller('mainController', function($scope){
     {
       url: "https://pad.piratar.is/",
       name: "Etherpad Pírata",
-      person: "?",
+      person: "Björn Þór Jóhannesson <bjorn@piratar.is>",
       technology: "EtherPad",
     },
     {
